@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Visit Form</title>
+</head>
+<body>
+    <div class="container">
+        <form action="" id="form1">
+            <h4>Product And Visit Details</h4>
+            <p>Complete everything</p>
+            <br><br>
+            Site <strong>:</strong>
+            <input list="sites" name="site">
+            <datalist id="sites">
+                <option value="Please Select"></option>
+                <option value="Volcano National Park"></option>
+                <option value="Akagera National Park"></option>
+                <option value="Nyungwe National Park"></option>
+            </datalist>
+            <br>
+            Product <strong>:</strong>
+            <input list="sites" name="site">
+            <datalist id="sites">
+                <option value="Please Select"></option>
+                <option value="Volcano National Park"></option>
+                <option value="Akagera National Park"></option>
+                <option value="Nyungwe National Park"></option>
+            </datalist><br><br>
+            Date of Visit <strong>:</strong>
+            <input type="date" required=""><br><br>
+            Slots Available <strong>:</strong>
+            <input type="text" required=""><br><br>
+            Number of Visitors <strong>:</strong>
+            <input type="text"><br><br>
+            Visitor Category <strong>:</strong>
+            <input type="radio" name="category" value="eac" checked> East African Citzen<br>
+            <input type="radio" name="category" value="eacrw"> East African Citzen Resident in Rwanda<br>
+            <input type="radio" name="category" value="foreigner"> Foreigner<br>
+            <input type="radio" name="category" value="foreignerrw"> Foreigner Resident inRwanda<br>
+            <input type="radio" name="category" value="rwanda"> Rwanda<br>
+            <br>
+            <h5>Notifications details</h5>
+            <p>Notification mode <strong>:</strong></p> 
+            <input type="checkbox" name="sms" value="SMS" > SMS<br>
+            <input type="checkbox" name="email" value="Email"> Email <br><br>
+            <P><strong>Note </strong>Please enter Rwanda Mobile number or Email
+                 to receive application status
+
+            </P>
+            <div class="btn-box">
+                   <button type="button" id="next1">NEXT</button>
+                   <button type="button">CANCEL</button>
+            </div>
+
+
+        </form>
+
+
+        <form action="" id="form2">
+            <h4>Visitor Details</h4>
+           
+            Visitors Type <strong>:</strong>
+            <input type="radio" name="category" value="adult" checked> Adult
+            <input type="radio" name="category" value="child"> Child
+            <input type="radio" name="category" value="student"> Student<br><br><br>
+            Id Type <strong>:</strong>
+            <input type="radio" name="id" value="id" checked>ID
+            <input type="radio" name="id" value="id" checked>Passport<br><br>
+            
+            Name <strong>:</strong>
+            <input type="text" required=""><br>
+            Surname <strong>:</strong>
+            <input type="text" required="">
+            Date of Birth <strong>:</strong>
+            <input type="date"><br>
+
+
+            
+            Country of Residence <strong>:</strong>
+            <input list="sites" name="site">
+            <datalist id="sites">
+                <option value="Please Select"></option>
+                <option value="Volcano National Park"></option>
+                <option value="Akagera National Park"></option>
+                <option value="Nyungwe National Park"></option>
+            </datalist>
+            <br>
+            Passport Number <strong>:</strong>
+            <input type="text" name="" required=""><br>
+
+            ID Expiry Date <strong>:</strong>
+            <input type="date"><br>
+            Email <strong>:</strong>
+            <input type="email" name="" value="" required="">
+
+            
+            <div class="btn-box">
+                <button type="button" id="next2">NEXT</button>
+                <button type="button" id="back1">PREVIOUS</button>
+                <button type="button">CANCEL</button>
+            </div>
+
+
+        </form>
+
+        <form action="" id="form3">
+            <h4>Summary</h4>
+            Site <strong>:</strong>
+            <input type="text">
+            Product <strong>:</strong>
+            <input type="text">
+            Date of Visit <strong>:</strong>
+            <input type="text">
+            Slots Available <strong>:</strong>
+            <input type="text">
+            Number of Visitors <strong>:</strong>
+            <input type="text">
+            Visitor Category <strong>:</strong>
+            <input type="text">
+            Visit Duration <strong>:</strong>
+            <input type="text">
+            Total Fee (Payable) <strong>:</strong>
+            <input type="text">
+            <h4>Visitor Details</h4>
+
+
+
+            <div class="btn-box">
+                <button type="button">SUBMIT</button>
+                <button type="button" id="back2">PREVIOUS</button>
+                <button type="button">CANCEL</button>
+         </div>
+
+        </form>
+
+        <div class="step-row">
+            <div id="progress"></div>
+            <div class="step-col"><small>Product And Visit Details</small></div>
+            <div class="step-col"><small>Visitor Details</small></div>
+            <div class="step-col"><small>Summary</small></div>
+            
+        </div>
+    </div>
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>

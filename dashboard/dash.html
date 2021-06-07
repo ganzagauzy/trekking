@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"
+     integrity="undefined" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>DASHBOARD</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="#">
+                        <span class="icon"></span>
+                        <span class="title"><h2>Gorilla Trekking</h2></span>
+                    </a>
+                </li>
+           
+                <li>
+                    <a href="#">
+                        <span class="icon"></span>
+                        <span class="title"><h2>Dashboard</h2></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"></span>
+                        <span class="title"><h2>Visitors</h2></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"></span>
+                        <span class="title"><h2>Message</h2></span>
+                    </a>
+     
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"></span>
+                        <span class="title"><h2>Help</h2></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"></span>
+                        <span class="title"><h2>Settings</h2></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"></span>
+                        <span class="title"><h2>Password</h2></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"></span>
+                        <span class="title"><h2>Sign out</h2></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="topbar">
+                <div class="toggle" onclick="toggleMenu();"></div>
+                <div class="search">
+                    <label>
+                        <input type="text" placeholder="Search here">
+                        <i></i>
+                    </label>
+                </div>
+                <div class="user">
+                    <img src="images.png" alt="">
+                </div>
+
+            </div>
+
+            <div class="cardBox">
+                <div class="card">
+                    <div>
+                        <div class="numbers">1,042</div>
+                        <div class="cardName">Daily Views</div>
+                    </div>
+                    <div class="iconBox">
+                        <i></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <div class="numbers">80</div>
+                        <div class="cardName">Tours</div>
+                    </div>
+                    <div class="iconBox">
+                        <i></i>
+                    </div>
+                </div>
+            
+                <div class="card">
+                    <div>
+                        <div class="numbers">282</div>
+                        <div class="cardName">Comments</div>
+                    </div>
+                    <div class="iconBox">
+                        <i></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <div class="numbers">2822</div>
+                        <div class="cardName">Earnings</div>
+                    </div>
+                    <div class="iconBox">
+                        <i></i>
+                    </div>
+                </div>
+            </div>
+            <div class="details">
+                <div class="recentOrders">
+                    <div class="cardHeader">
+                        <h2>Recent Requests</h2>
+                        <a href="#" class="btn">View All</a>
+                    </div>
+                    
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>Name</td>
+                                <td>Price</td>
+                                <td>Payment</td>
+                                <td>Site</td>
+                                <td>Status</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Star Refrigerator</td>
+                                <td>$1200</td>
+                                <td>Paid</td>
+                                <td>Volcano N.P</td>
+                                <td><span class="status delivered">Delivered</span></td>
+                            </tr>
+                            <tr>
+                                <td>Window Coolers</td>
+                                <td>$110</td>
+                                <td>Due</td>
+                                <td>Akagera N.P</td>
+                                <td><span class="status pending">Pending</span></td>
+                            </tr>
+                            <tr>
+                                <td>Speakers</td>
+                                <td>$1200</td>
+                                <td>Paid</td>
+                                <td>Nyungwe F</td>
+                                <td><span class="status return">Return</span></td>
+                            </tr>
+                            <tr>
+                                <td>Hp Laptop</td>
+                                <td>$6000</td>
+                                <td>Due</td>
+                                <td>Volcano N.P</td>
+                                <td><span class="status inprogress">In Progress</span></td>
+                            </tr>
+                            <tr>
+                                <td>Star Refrigerator</td>
+                                <td>$1200</td>
+                                <td>Paid</td>
+                                <td>Akagera N.P</td>
+                                <td><span class="status delivered">Delivered</span></td>
+                            </tr>
+                            <tr>
+                                <td>Window Coolers</td>
+                                <td>$110</td>
+                                <td>Due</td>
+                                <td>Volcano N.P</td>
+                                <td><span class="status pending">Pending</span></td>
+                            </tr>
+                            <tr>
+                                <td>Speakers</td>
+                                <td>$1200</td>
+                                <td>Paid</td>
+                                <td>Akagera N.P</td>
+                                <td><span class="status return">Return</span></td>
+                            </tr>
+                            <tr>
+                                <td>Hp Laptop</td>
+                                <td>$6000</td>
+                                <td>Due</td>
+                                <td>Volcano N.P</td>
+                                <td><span class="status inprogress">In Progress</span></td>
+                            </tr>
+                        <tbody>
+                        
+                    </table>
+                </div>
+                <div class="recentCusromers">
+                    <div class="cardHeader">
+                        <h2>Recent Visitors</h2>
+                    </div> 
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td width="60px"><div class="imgBx"><img src="" alt=""></div></td>
+                                <td><h4>David<br><span>Italy</span></h4></td>
+                            </tr>
+                            <tr>
+                                <td width="60px"><div class="imgBx"><img src="" alt=""></div></td>
+                                <td><h4>Muhammad<br><span>India</span></h4></td>
+                            </tr>
+                            <tr>
+                                <td width="60px"><div class="imgBx"><img src="" alt=""></div></td>
+                                <td><h4>Ronaldo<br><span>Portigual</span></h4></td>
+                            </tr>
+                            <tr>
+                                <td width="60px"><div class="imgBx"><img src="" alt=""></div></td>
+                                <td><h4>Luiz<br><span>Brazil</span></h4></td>
+                            </tr>
+                            <tr>
+                                <td width="60px"><div class="imgBx"><img src="" alt=""></div></td>
+                                <td><h4>Kante<br><span>France</span></h4></td>
+                            </tr>
+                            <tr>
+                                <td width="60px"><div class="imgBx"><img src="" alt=""></div></td>
+                                <td><h4>Reus<br><span>German</span></h4></td>
+                            </tr>
+                            <tr>
+                                <td width="60px"><div class="imgBx"><img src="" alt=""></div></td>
+                                <td><h4>Hazard<br><span>Belgium</span></h4></td>
+                            </tr>
+                            <tr>
+                                <td width="60px"><div class="imgBx"><img src="" alt=""></div></td>
+                                <td><h4>Ibra<br><span>Sweden</span></h4></td>
+                            </tr>
+                        </tbody>
+                    </table>     
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+
+    
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
