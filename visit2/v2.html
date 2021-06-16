@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="v.css">
+    <title>Visit Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="forms-container">
+            <div class="visit-detail">
+                <form action="" class="detail-form">
+                    <h3>Visitor Type</h3>
+                    <br>
+                    Adult
+                    <input type="radio" name="category" value="adult" checked>
+                    Child 
+                    <input type="radio" name="category" value="child"> 
+                    Student
+                    <input type="radio" name="category" value="student"> 
+                    <h4>Id Type</h4>
+                    <br>
+                    ID
+                    <input type="radio" name="id" value="id" checked>
+                    Passport
+                    <input type="radio" name="id" value="id" checked>
+                    <input type="submit" value="Save" class="btn solid">
+                    
+
+                </form>
+
+                <form action="" class="visit-form">
+                    <br><br>
+                    <h3>Complete everything</h3><br>
+                    Name
+                    <input type="text" required="">
+                    Surname
+                    <input type="text" required="">
+                    Date of Birth
+                    <input type="date">
+        
+        
+                    
+                    Country of Residence
+                    <input list="sites" name="site">
+                    <datalist id="sites">
+                        <option value="Please Select"></option>
+                        <option value="Volcano National Park"></option>
+                        <option value="Akagera National Park"></option>
+                        <option value="Nyungwe National Park"></option>
+                    </datalist>
+                    
+                    Passport Number
+                    <input type="text" name="" required="">
+        
+                    ID Expiry Date
+                    <input type="date">
+                    Email
+                    <input type="email" name="" value="" required="">
+                    <input type="submit" value="Save" class="btn solid">
+                </form>
+            </div>
+        </div>
+        <div class="panels-container">
+            <div class="panel left-panel">
+                <div class="content">
+                    <h3>Visitor Details</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Unde nulla id esse.</p>
+                    <a href="v.html"><button class="btn transparent">Previous</button></a>
+                    <button class="btn transparent" id="visit">Next</button>
+                </div>
+            </div>
+            <div class="panel right-panel">
+                <div class="content">
+                    <h3>Visitor Details</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Unde nulla id esse.</p>
+                    <button class="btn transparent" id="detail">Previous</button>
+                    <a href="v3.html"><button class="btn transparent" >Next</button></a>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="v.js"></script>
+</body>
+</html>

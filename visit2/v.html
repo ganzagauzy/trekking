@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="v.css">
+    <title>Visit Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="forms-container">
+            <div class="visit-detail">
+                <form action="" class="detail-form">
+                    <h3>Complete everything</h3><br>
+                    
+                    Site
+                    <input list="sites" name="site">
+                    <datalist id="sites">
+                        <option value="Please Select"></option>
+                        <option value="Volcano National Park"></option>
+                        <option value="Akagera National Park"></option>
+                        <option value="Nyungwe National Park"></option>
+                    </datalist>
+                    
+                    Product
+                    <input list="sites" name="site">
+                    <datalist id="sites">
+                        <option value="Please Select"></option>
+                        <option value="Volcano National Park"></option>
+                        <option value="Akagera National Park"></option>
+                        <option value="Nyungwe National Park"></option>
+                    </datalist>
+                    Date of Visit
+                    <input type="date" required="">
+                    Slots Available
+                    <input type="text" required="">
+                    Number of Visititors
+                    <input type="text" required="">
+                    <input type="submit" value="Save" class="btn solid">
+
+                </form>
+
+                <form action="" class="visit-form">
+                    <h4>Visitor Category</h4>
+                    <br>
+                    East African Citzen
+                    <input type="radio" name="category" value="eac" checked> 
+                    East African Citzen Resident in Rwanda
+                    <input type="radio" name="category" value="eacrw"> 
+                    Foreigner
+                    <input type="radio" name="category" value="foreigner"> 
+                    Foreigner Resident inRwanda
+                    <input type="radio" name="category" value="foreignerrw"> 
+                    Rwanda
+                    <input type="radio" name="category" value="rwanda"> 
+                    <br>
+                    <h5>Notifications details</h5>
+                    <p>Notification mode<strong>:</strong></p>
+                    SMS
+                    <input type="checkbox" name="sms" value="SMS" > 
+                    Email 
+                    <input type="checkbox" name="email" value="Email"> 
+                    <p><strong>Note:</strong> Please enter Rwanda mobile number or Email
+                        to receive application status
+
+                    </P>
+                    <input type="submit" value="Save" class="btn solid">
+                </form>
+            </div>
+        </div>
+        <div class="panels-container">
+            <div class="panel left-panel">
+                <div class="content">
+                    <h3>Product And Visit Details</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Unde nulla id esse.</p>
+                    <button class="btn transparent" id="visit">Next</button>
+                </div>
+            </div>
+            <div class="panel right-panel">
+                <div class="content">
+                    <h3>Visitor Details</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Unde nulla id esse.</p>
+                    <button class="btn transparent" id="detail">Previous</button>
+                    <a href="v2.html"><button class="btn transparent" >Next</button></a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="v.js"></script>
+</body>
+</html>
