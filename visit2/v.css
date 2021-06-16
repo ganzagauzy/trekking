@@ -263,6 +263,9 @@ input {
     form {
         padding: 0 1.5rem;
     }
+    .btn {
+        height: 35px;
+    }
     .panel .content {
         padding: 0.5rem 1rem;
     }
@@ -271,7 +274,7 @@ input {
         left: 50%;
     }
     .container.previous-mode:before {
-        bottom: 21%;
+        bottom: 22%;
         left: 50%;
     }
 }
