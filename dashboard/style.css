@@ -17,9 +17,10 @@ body {
 }
 .navigation {
     position: fixed;
-    width: 300px;
+    width: 260px;
     height: 100%;
-    background: #003147;
+    /*background: #003147;*/
+    background: linear-gradient(-45deg, #4481eb, #04befe);
     transition: 0.5s;
     overflow: hidden;
 }
@@ -70,6 +71,7 @@ body {
 .navigation ul li a .title {
     position: relative;
     display: block;
+    line-height: 100px;
     padding: 0 10px;
     height: 60px;
     line-height: 60px;
@@ -77,8 +79,8 @@ body {
 }
 .main {
     position: absolute;
-    width: calc(100% - 300px);
-    left: 300px;
+    width: calc(100% - 260px);
+    left: 260px;
     min-height: 100vh;
     background: #f5f5f5;
     transition: 0.5s;
