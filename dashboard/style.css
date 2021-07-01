@@ -19,8 +19,7 @@ body {
     position: fixed;
     width: 260px;
     height: 100%;
-    /*background: #003147;*/
-    background: linear-gradient(-45deg, #4481eb, #04befe);
+    background: #4481eb;
     transition: 0.5s;
     overflow: hidden;
 }
@@ -40,7 +39,7 @@ body {
     list-style: none;
 }
 .navigation ul li:hover {
-    background: #03a9f4;
+    background: linear-gradient(-45deg, #4481eb, #04befe);
 }
 .navigation ul li:nth-child(1) {
     margin-bottom: 20px;
@@ -212,7 +211,7 @@ body {
 .btn {
     position: relative;
     padding: 5px 10px;
-    background: #03a9f4;
+    background: #4481eb;
     color: #fff;
     text-decoration: none;
     border-radius: 6px;
@@ -232,7 +231,7 @@ body {
     border-bottom: none;
 }
 .details .recentOrders table tbody tr:hover {
-    background: #03a9f4;
+    background: #4481eb;
     color: #fff;
 }
 .details .recentOrders table tr td {
@@ -261,16 +260,16 @@ body {
     letter-spacing: 1px;
 }
 .delivered {
-    background: #8de02c;
+    background: #5d862e;
 }
 .pending {
-    background: #f9ca3f;
+    background: #927a31;
 }
 .return {
-    background: #f00;
+    background: rgb(126, 21, 21);
 }
 .inprogress {
-    background: #1795ce;
+    background: #276785;
 }
 .details .recentCusromers {
     position: relative;
@@ -296,7 +295,7 @@ body {
 }
 .details .recentCusromers table tr:hover,
 .details .recentCusromers table tr:hover td h4 span {
-    background: #03a9f4;
+    background: #4481eb;
     color: #fff;
 }
 .details .recentCusromers  table tr td {
