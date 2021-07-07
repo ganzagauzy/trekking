@@ -260,16 +260,16 @@ body {
     letter-spacing: 1px;
 }
 .delivered {
-    background: #5d862e;
+    background: #4184f8;
 }
 .pending {
-    background: #927a31;
+    background: #2e5496;
 }
 .return {
     background: rgb(126, 21, 21);
 }
 .inprogress {
-    background: #276785;
+    background: #1e3864;
 }
 .details .recentCusromers {
     position: relative;
